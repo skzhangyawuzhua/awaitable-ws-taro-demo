@@ -9,7 +9,7 @@ export default function Index() {
   useLoad(() => {
     const url = "ws://127.0.0.1:9000/api";
 
-    wsRef.current = new awaitableWs({ url, is_taro: true });
+    wsRef.current = new awaitableWs({ url });
 
     //ping pong
     setInterval(() => {
