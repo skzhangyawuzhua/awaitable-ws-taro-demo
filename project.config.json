@@ -1,6 +1,6 @@
 {
     "miniprogramRoot": "dist/",
-    "projectname": "ws-taro-demo",
+    "projectname": "awaitable-ws-taro-demo",
     "description": "",
     "setting": {
         "urlCheck": true,

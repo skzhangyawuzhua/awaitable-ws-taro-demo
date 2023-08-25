@@ -10,6 +10,11 @@ export default function Index() {
     const url = "ws://127.0.0.1:9000/api";
 
     wsRef.current = new awaitableWs({ url, is_taro: true });
+
+    //ping pong
+    setInterval(() => {
+      wsRef.current?.custom_send("ping");
+    }, 5000);
   });
 
   const wsRef = useRef<awaitableWs>();

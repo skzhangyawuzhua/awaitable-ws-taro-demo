@@ -1,8 +1,8 @@
 {
-  "name": "ws-taro-demo",
+  "name": "awaitable-ws-taro-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "implement awaitable-ws in taro ",
   "templateInfo": {
     "name": "default",
     "typescript": true,

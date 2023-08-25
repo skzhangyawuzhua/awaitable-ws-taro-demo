@@ -7,7 +7,7 @@ import prodConfig from "./prod";
 //@ts-ignore
 export default defineConfig(async (merge, { command, mode }) => {
   const baseConfig: UserConfigExport = {
-    projectName: "ws-taro-demo",
+    projectName: "awaitable-ws-taro-demo",
     date: "2023-8-25",
     designWidth: 750,
     deviceRatio: {

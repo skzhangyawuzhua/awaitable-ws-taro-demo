@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "ws-taro-demo",
+  "projectname": "awaitable-ws-taro-demo",
   "appid": "testAppId",
   "setting": {
     "es6": false,
